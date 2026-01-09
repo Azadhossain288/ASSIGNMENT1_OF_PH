@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    padding:20px 60px;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.logo{
+
+    flex:1;
+}
+
+.nav-center{
+
+    flex:2;
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    list-style:none;
+    max-width: 365px;
+    margin-top:34px;
+    margin-bottom: 34px;
+
+}
+
+.nav-center a{
+    text-decoration: none;
+    font-weight: 500px;
+    font-size: 16px;
+}
+
+.nav-right{
+    flex:1;
+    display:flex;
+    justify-content:flex-end;
+}
+
+
+.btn{
+    padding:10px 20px;
+    background-color:#3cff49;
+    color:#fff;
+    text-decoration:none ;
+    border-radius:6px;
+    font-size: 16px;
+
+}
+
+.btn.green{
+
+    background-color: #30B868;
+}
+
+.btn.outline{
+
+    background:transparent;
+    border:1px solid #fff;
+}
+
+#banner{
+
+    background-image: url("../images/123a6514600ac601fbc05507e7ded07214433981.jpg");
+    background-size: cover;
+    background-position: center;
+    padding:115px 263px 120px 120px;
+    color:#fff;
+}
+
+.container{
+
+    max-width: 1600px;
+    margin-top:auto;
+    text-align: center;
+    
+}
+
+.bton{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    width:229px;
+    height: 35px;
+    padding:8px 8px 12px 12px;
+    gap:6px;
+    border:1px solid #30B868;
+    border-radius:1000px;
+    color:#30B868;
+    text-decoration: none;
+    font-size: 16px;
+    margin: bottom 179.5em;
+    
+}
+.hd{
+
+    font:Inter;
+    font-weight: 700px;
+    font-style: Bold;
+    font-size:72px;
+    line-height: 84px;
+    text-align: center;
+    margin-bottom: 16px;
+
+}
+
+.hd span{
+
+    color:#30B868;
+}
+
+.desc{
+
+    max-width: 1360px;
+    line-height: 24px;
+    font-size: 18px;
+    color:#ffffff;
+    margin:auto;
+}
+
+.button-container{
+
+    margin-top:32px;
+    display:flex;
+    justify-content: center;
+    gap:16px;
+}
+
+.batn-green{
+    width: 251px;
+    height: 52px;
+    background-color:#30B868;
+    color:#fff;
+    border-radius: 4px;
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.batn-outline{
+    width: 251px;
+    height: 52px;
+    background:transparent;
+    color:#fff;
+    border:1px solid #fff;
+    border-radius: 4px;
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
