@@ -16,6 +16,13 @@ body{
     margin: auto;
 }
 
+.navbar .logo img {
+    max-width: 139px;
+    display: block;
+    padding-right: 20px;
+    
+}
+
 .logo{
 
     flex:1;
@@ -353,6 +360,10 @@ hr{
 
 .ft .container_ft p{
      text-align: center;
+}
+
+.ft .container_ft .footer-top img{
+    max-width: 139px;
 }
 
 
