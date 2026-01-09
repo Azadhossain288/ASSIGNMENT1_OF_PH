@@ -31,6 +31,7 @@ body{
     max-width: 365px;
     margin-top:34px;
     margin-bottom: 34px;
+    
 
 }
 
@@ -38,6 +39,7 @@ body{
     text-decoration: none;
     font-weight: 500px;
     font-size: 16px;
+    color:#000000;
 }
 
 .nav-right{
@@ -182,6 +184,22 @@ body{
 
 }
 
+.card{
+    max-width: 322px;
+    background-color: #ffffff;
+    padding:40px 20px;
+    border:1px solid #f0f0f0;
+    border-radius:12px;
+    transition: transform 0.3s ease,box-shadow 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.card:hover{
+
+    transform:translateY(-5px);
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
 .cards-container{
     max-width: 1360px;
 }
@@ -205,4 +223,136 @@ body{
     text-align:center;
     
 }
+
+
+
+#step3 .container{
+
+    display:flex;
+    align-items: center;
+    text-align: left;
+    gap:60px;
+    
+}
+
+.imag, .text{
+
+    flex:1;
+}
+
+ .imag img{
+    max-width:100%;
+    height:auto;
+}
+
+.imge{
+    flex:1;
+
+}
+
+
+.imge img{
+   max-width:100%;
+   height:auto;
+
+}
+
+.text{
+
+ flex:1;
+}
+
+.hdp{
+
+    color:#30B868;
+    font-weight: 700px;
+    letter-spacing: 1px;
+    margin-bottom:10px;
+}
+
+.hdr{
+
+    font-size:48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.prg{
+    color:#627382;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.cls{
+
+    list-style: none;
+}
+
+.cls li{
+
+    position:relative;
+    padding-left:30px;
+    margin-bottom:12px;
+    color:#333333;
+}
+
+.cls li::before{
+
+    content: '✓';
+    position:absolute;
+    left:0;
+    color:#30B868;
+    font-weight: bold;
+}
+
+.step4{
+
+    background-color: #F8FAFC;
+    padding:80px 20px;
+    text-align: center;
+}
+
+.container-box h2{
+    font-size:40px;
+    margin-bottom: 15px;
+}
+
+.btn-cta{
+
+    display:inline-block;
+    background-color: #30B868;
+    color:white;
+    padding:15px 35px;
+    border-radius:5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin:25px 0;
+}
+
+.ft{
+
+    background-color:#001931;
+    color:white;
+    padding:60px 20px 20px;
+}
+
+.footer-top{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+
+hr{
+    border:0;
+    border-top:1px solid #1a3650;
+    margin-bottom: 20px;
+}
+
+.ft .container_ft p{
+     text-align: center;
+}
+
 
